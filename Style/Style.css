@@ -91,12 +91,14 @@ margin-top: 62px;
 }
 
 .button_white {
+    margin-top: 32px ;
     background: #FFFFFF;
     color: #5454D4;
     width: 285;
 }
 
 .button_brown {
+    margin-top: 32px ;
     background: #9F3919;
     width: 285;
 }
@@ -168,7 +170,11 @@ margin-top: 62px;
     width: 330px;
     height: 441px;
     border-radius: 10px;;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .rate_normal {
